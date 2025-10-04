@@ -1,0 +1,324 @@
+{
+    "type": "Feature",
+    "stac_version": "1.1.0",
+    "stac_extensions": [],
+    "id": "km50_mit_Relief_1440_3_20250408",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    14.33163,
+                    47.8514
+                ],
+                [
+                    15.0,
+                    47.85334
+                ],
+                [
+                    15.0,
+                    48.3032
+                ],
+                [
+                    14.32578,
+                    48.30122
+                ],
+                [
+                    14.33163,
+                    47.8514
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        14.32578,
+        47.8514,
+        15.0,
+        48.3032
+    ],
+    "properties": {
+        "bounds": [
+            450000.0,
+            5300000.0,
+            500000.0,
+            5350000.0
+        ],
+        "dataset_geom": {
+            "bbox": [
+                14.32578,
+                47.8514,
+                15.0,
+                48.3032
+            ],
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            14.33163,
+                            47.8514
+                        ],
+                        [
+                            15.0,
+                            47.85334
+                        ],
+                        [
+                            15.0,
+                            48.3032
+                        ],
+                        [
+                            14.32578,
+                            48.30122
+                        ],
+                        [
+                            14.33163,
+                            47.8514
+                        ]
+                    ]
+                ]
+            }
+        },
+        "projection": {
+            "epsg": 25833,
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            450000.0,
+                            5300000.0
+                        ],
+                        [
+                            500000.0,
+                            5300000.0
+                        ],
+                        [
+                            500000.0,
+                            5350000.0
+                        ],
+                        [
+                            450000.0,
+                            5350000.0
+                        ],
+                        [
+                            450000.0,
+                            5300000.0
+                        ]
+                    ]
+                ]
+            },
+            "bbox": [
+                450000.0,
+                5300000.0,
+                500000.0,
+                5350000.0
+            ],
+            "shape": [
+                20000,
+                20000
+            ],
+            "transform": [
+                2.5,
+                0.0,
+                450000.0,
+                0.0,
+                -2.5,
+                5350000.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "raster_info": [
+            {
+                "data_type": "uint8",
+                "scale": 1.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "statistics": {
+                    "mean": 197.04992961883545,
+                    "minimum": 0,
+                    "maximum": 255,
+                    "stddev": 67.27447608150355,
+                    "valid_percent": 9.5367431640625e-05
+                },
+                "histogram": {
+                    "count": 11,
+                    "min": 0.0,
+                    "max": 255.0,
+                    "buckets": [
+                        23347,
+                        44278,
+                        74113,
+                        9988,
+                        12457,
+                        15222,
+                        33438,
+                        141028,
+                        323045,
+                        371660
+                    ]
+                }
+            },
+            {
+                "data_type": "uint8",
+                "scale": 1.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "statistics": {
+                    "mean": 200.60922718048096,
+                    "minimum": 0,
+                    "maximum": 255,
+                    "stddev": 67.3493991111575,
+                    "valid_percent": 9.5367431640625e-05
+                },
+                "histogram": {
+                    "count": 11,
+                    "min": 0.0,
+                    "max": 255.0,
+                    "buckets": [
+                        15188,
+                        42547,
+                        66154,
+                        22545,
+                        26082,
+                        33049,
+                        35677,
+                        76027,
+                        212421,
+                        518886
+                    ]
+                }
+            },
+            {
+                "data_type": "uint8",
+                "scale": 1.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "statistics": {
+                    "mean": 189.9445972442627,
+                    "minimum": 0,
+                    "maximum": 255,
+                    "stddev": 73.54268347197774,
+                    "valid_percent": 9.5367431640625e-05
+                },
+                "histogram": {
+                    "count": 11,
+                    "min": 0.0,
+                    "max": 255.0,
+                    "buckets": [
+                        38606,
+                        50696,
+                        73654,
+                        17127,
+                        28752,
+                        19353,
+                        52950,
+                        150877,
+                        192459,
+                        424102
+                    ]
+                }
+            }
+        ],
+        "eobands_info": [
+            {
+                "name": "b1",
+                "description": "red"
+            },
+            {
+                "name": "b2",
+                "description": "green"
+            },
+            {
+                "name": "b3",
+                "description": "blue"
+            }
+        ],
+        "media_type": "image/tiff; application=geotiff",
+        "bbox_geom": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        14.32578,
+                        47.8514
+                    ],
+                    [
+                        15.0,
+                        47.8514
+                    ],
+                    [
+                        15.0,
+                        48.3032
+                    ],
+                    [
+                        14.32578,
+                        48.3032
+                    ],
+                    [
+                        14.32578,
+                        47.8514
+                    ]
+                ]
+            ]
+        },
+        "footprint": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        14.33163,
+                        47.8514
+                    ],
+                    [
+                        15.0,
+                        47.85334
+                    ],
+                    [
+                        15.0,
+                        48.3032
+                    ],
+                    [
+                        14.32578,
+                        48.30122
+                    ],
+                    [
+                        14.33163,
+                        47.8514
+                    ]
+                ]
+            ]
+        },
+        "datetime": "2025-10-04T20:44:22.078431Z",
+        "cloudcover": null
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "https://data.bev.gv.at/stac/",
+            "type": "application/json",
+            "title": "Bev Catalog"
+        },
+        {
+            "rel": "collection",
+            "href": "https://data.bev.gv.at/stac/bev_catalog_collection/collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "https://data.bev.gv.at/stac/bev_catalog_collection/collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "image": {
+            "href": "km50_mit_Relief_1440_3_20250408.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "collection": "bev_catalog_collection"
+}
